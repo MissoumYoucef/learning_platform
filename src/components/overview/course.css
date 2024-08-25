@@ -7,10 +7,18 @@
     border: 1px solid #EBEBEB;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+    padding: 27px 19px;
     /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+
+.course_card_f {
+    display: flex;             /* Use flexbox for layout */
+    justify-content: space-between; /* Place one icon at the start and one at the end */
+    align-items: center;       /* Center icons vertically within the div */
+    width: 100%;               /* Ensure the container takes full width */
 }
 
 .course_name{
@@ -35,4 +43,11 @@
     align-items: center;
     /* Gray 2 */
     color: #4F4F4F;
+}
+
+.course_circle{
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center;
+    height: 100%;
 }

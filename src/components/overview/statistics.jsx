@@ -1,7 +1,7 @@
 import React from 'react';
 import './statistics.css';
-import barchart from '../../images/barchart.png';
-import circle from '../../images/circle.png';
+import barchart from './images/barchart.png';
+import circle from './images/circle.png';
 
 
 function Statistics() {
