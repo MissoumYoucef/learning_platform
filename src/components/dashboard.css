@@ -1,0 +1,20 @@
+/* Dashboard */
+
+.dashboard{
+    display: flex;
+    flex: row;
+}
+
+.dashboard_text {
+    position: absolute;
+    width: 10%; /* Adjusted for responsiveness */
+    height: auto; /* Let the content dictate height */
+    left: 10%; /* Relative to the viewport */
+    top: 2%; /* Relative to the viewport */
+    font-family: 'Gilroy-Medium';
+    font-size: 2vw; /* Responsive font size */
+    line-height: 1.2; /* Maintain line height relative to font size */
+    color: #000000;
+}
+
+

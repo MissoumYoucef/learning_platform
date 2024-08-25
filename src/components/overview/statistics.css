@@ -1,0 +1,121 @@
+.statistics_part{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.statistics_container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 12px;
+    gap: 16px;
+    isolation: isolate;
+    width: 550px;
+    height: 295px;
+    left: 22px;
+    top: 160px;
+    background: #FFFFFF;
+    border: 0.5px solid #EBEBEB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+.statistics_container2{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 262px;
+    height: 295px;
+    gap: 20px;
+    padding: 8px 12px;
+    background: #FFFFFF;
+    border: 0.5px solid #EBEBEB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.statistics_container_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    gap: 91px;
+    width: 526px;
+    height: 27px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 0;
+}
+
+.statistics_text{
+    /* STATISTICS */
+
+    margin: 0 auto;
+    width: 263px;
+    height: 19px;
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #828282;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.statistics_progress{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-center;
+    padding: 0px;
+    gap: 41px;
+    width: 185px;
+    height: 19px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.statistics_progress p{
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #828282;
+}
+
+.statistics_date {
+/* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 7px;
+    gap: 12px;
+    margin: 0 auto;
+    width: 88px;
+    height: 23px;
+    background: conic-gradient(from 180deg at 50% -77.78%, #F5F5F5 0deg, rgba(245, 245, 245, 0) 360deg);
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
+    border-radius: 4px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.statistics_date p{
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #828282;
+}

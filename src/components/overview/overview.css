@@ -1,0 +1,49 @@
+/* OVERVIEW */
+
+.overview{
+    top: 80px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+}
+.overview_part1{
+    display: flex;
+    flex: 6.5;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px; 
+}
+
+.overview_part2{
+    display: flex;
+    flex: 3.5;
+    flex-direction: column;
+    align-items: start;
+}
+
+.overview_text{
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 38px;
+    width: 846px;
+    height: 100px;
+    left: 22px;
+    top: 40px;
+}
+
+
+
+
