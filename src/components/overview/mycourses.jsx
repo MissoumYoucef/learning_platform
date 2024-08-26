@@ -8,6 +8,8 @@ function MyCourses() {
         <p className='my_courses_text'>MY COURSES</p>
         <div className='my_courses_container'>
             <Course />
+            <Course />
+            <Course />
         </div>
     </div>
   );
