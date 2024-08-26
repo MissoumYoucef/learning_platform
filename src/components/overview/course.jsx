@@ -2,9 +2,7 @@ import React from 'react';
 import './course.css';
 import circ from './images/circ.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faUser } from '@fortawesome/free-solid-svg-icons'; // Example icon
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'; // Example icon
-// import { faUser } from '@fortawesome/free-solid-svg-icons'; // Example icon
 
 
 function Course() {
