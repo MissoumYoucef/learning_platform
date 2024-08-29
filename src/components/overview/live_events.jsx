@@ -13,7 +13,7 @@ function LiveEvents() {
                 <p className='live_events_text'>
                     Ipsum odio et integer aliquet 
                     lorem a,sem suscipit varius.</p>
-                <div>
+                <div className='live_events_container_text_user'>
                     <FontAwesomeIcon icon={faGraduationCap} />
                     <p className='live_events_text_name'>Missoum youcef</p>
                 </div>
