@@ -1,12 +1,13 @@
 import './App.css';
 // import Dashboard from './components/dashboard';
-import Overview from './components/overview/overview';
+// import Overview from './components/overview/overview';
+import Courses from './components/courses/courses';
 
 function App() {
   return (
     <div className="App">
       {/* <Dashboard/> */}
-      <Overview/>
+      <Courses/>
     </div>
   );
 }

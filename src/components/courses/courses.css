@@ -1,0 +1,21 @@
+.my_courses{
+    display: flex;
+    flex-direction: column;
+}
+
+.my_courses_parts{
+    display: flex;
+    flex-direction: row;
+}
+
+.my_courses_part1{
+    display: flex;
+    flex-direction: column;
+    flex: 6.5;
+}
+
+.my_courses_part2{
+    display: flex;
+    flex-direction: column;
+    flex: 3.5;
+}
