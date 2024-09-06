@@ -2,6 +2,7 @@ import './course_progress_card.css';
 import '../sharedcss.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import FeaturedImg from './images/featured.png';
 
 function FeaturedCard() {
   return (
@@ -11,12 +12,12 @@ function FeaturedCard() {
           <p>5 Lessons</p>
           <p>5 Quizez</p>
         </div>
-        <p>5 Lessons</p>
-        <p>5 Quizez</p>
+        <p>Enim erat elit diam donec</p>
+        <p>Quisque et tristique eu est sed id sapien, nullam erat.</p>
         <div className="featured_card_end">
           <FontAwesomeIcon icon={faGraduationCap}/>
-          <p className="pgars_text">Basic of English Language</p>
-          <p className="pnormal_text">Progress</p>
+          <p className="pnormal_text">Shams Tabrez</p>
+          <img src={FeaturedImg} alt="featuredImg"/>
         </div>
       </div>    
   );
