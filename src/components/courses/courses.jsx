@@ -2,6 +2,8 @@ import './courses.css';
 import Progress from './progress';
 import Allstatus from './allstatus';
 import EnrolledCourses from './enrolled_courses';
+import Featured from './Featured';
+
 function Courses() {
   return (
     <div className="my_courses">
@@ -15,7 +17,8 @@ function Courses() {
           <EnrolledCourses/>
         </div>
         <div className="my_courses_part2">
-          <p className="my_courses_text">LIVE EVENTS</p>
+          <p className="my_courses_text">23 Sep</p>
+          <Featured/>
         </div>
       </div>
     </div>

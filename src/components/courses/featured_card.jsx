@@ -1,4 +1,4 @@
-import './course_progress_card.css';
+import './featured_card.css';
 import '../sharedcss.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
