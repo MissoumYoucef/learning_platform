@@ -1,9 +1,5 @@
 
 .h1_text{
-   /* My Courses */
-    width: 170px;
-    height: 40px;
-
     font-family: 'Gilroy-Bold';
     font-size: 32px;
     line-height: 38px;
@@ -11,9 +7,6 @@
 }
 
 .h3_text{
-    /* All Status */
-    width: 103px;
-    height: 29px;
     font-family: 'Gilroy-Medium';
     font-size: 24px;
     line-height: 28px;
@@ -25,7 +18,7 @@
 
 .pgars_text{
     /* Basic of English Language */
-    height: 20px;
+    /* height: 20px; */
     font-family: 'Gilroy-SemiBold';
     font-style: normal;
     font-weight: 400;
@@ -39,8 +32,6 @@
 }
 
 .pnormal_text{
-    width: 46px;
-    height: 14px;
     font-family: 'Gilroy-Regular';
     font-size: 12px;
     line-height: 14px;

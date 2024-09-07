@@ -9,13 +9,14 @@
     height: 80px;
     background: #FFFFFF;
     border-bottom: 0.5px solid #E0E0E0;
+    padding: 10px;
     /* Inside auto layout */
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
 }
-.enrolled_course_card_beg{
+.enrolled_course_card_icon{
     width: 64px;
     height: 64px;
     background: #E5D1FF;
@@ -24,8 +25,17 @@
     align-items: center;
     justify-content: center;
 }
-.enrolled_course_card_mid{
+.enrolled_course_card_text{
     display: flex;
     flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.enrolled_course_card_beg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
+    gap: 38px;
 }

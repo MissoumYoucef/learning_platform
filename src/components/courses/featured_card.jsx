@@ -10,7 +10,7 @@ function FeaturedCard() {
         <div className="featured_card_beg">
           <FontAwesomeIcon icon={faGraduationCap}/>
           <p>5 Lessons</p>
-          <p>5 Quizez</p>
+          <p>4Quizez</p>
         </div>
         <p>Enim erat elit diam donec</p>
         <p>Quisque et tristique eu est sed id sapien, nullam erat.</p>
