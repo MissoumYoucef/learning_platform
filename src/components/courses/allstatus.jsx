@@ -6,12 +6,14 @@ function Allstatus() {
     <div>
       <p className='h3_text'>All Status</p>
       <div className="allstatus_container">
-        <Status/>
-        <Status/>
-        <Status/>
-        <Status/>
+        <div className="status"><Status /></div>
+        <div className="status"><Status /></div>
+        <div className="status"><Status /></div>
+        <div className="status"><Status /></div>
       </div>
     </div>
+
+
     
   );
 }
