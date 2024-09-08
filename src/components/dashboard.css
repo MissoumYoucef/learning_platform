@@ -7,6 +7,7 @@
 
 .dashboard_text {
     position: absolute;
+    padding: 30px;
     width: 10%; /* Adjusted for responsiveness */
     height: auto; /* Let the content dictate height */
     left: 10%; /* Relative to the viewport */

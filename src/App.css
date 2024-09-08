@@ -1,6 +1,11 @@
 .App {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 20px;
 }
 
+.beside_SBar{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

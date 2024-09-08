@@ -1,50 +1,66 @@
-.featured_card{
+.featured_card {
     display: flex;
     flex-direction: column;
-    align-items: start;
-    justify-content: start;
+    align-items: flex-start;
+    justify-content: space-around;
     width: 308px;
     height: 236px;
     background: #FFFFFF;
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25), 0px 2px 2px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
+    padding: 25px;
 }
-.featured_card_beg{
+
+.featured_card_beg,
+.featured_card_end {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    width: 100%; /* Ensures these sections take full width */
 }
-.featured_card p:first-of-type{
-    width: 166px;
-    height: 17px;
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.info p {
+    font-weight: bold;
+    font-size: 12px;
+}
+.featured_card_beg p{
+    font-family: 'Gilroy-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* Gray 3 */
+    color: #828282;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.featured_card p:nth-of-type(1){
     font-family: 'Gilroy-Light';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    display: flex;
-    align-items: center;
     color: #4F4F4F;
 }
+
 .featured_card p:nth-of-type(2) {
-    width: 271px;
-    height: 38px;
     font-family: 'Gilroy-Medium';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    display: flex;
-    align-items: center;
-    /* Gray 2 */
-    color: #4F4F4F;
-
 }
-   
-.featured_card_end{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+
+.featured_card_end img {
+    position: absolute;
+    height: 85px; /* Set a height for the image */
+    right: 8px; /* Adds space between the icon and the image */
+    bottom: 0;
 }

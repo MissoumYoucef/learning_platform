@@ -8,7 +8,7 @@ function Courses() {
   return (
     <div className="my_courses">
       <div className="my_courses_navbar">
-
+        
       </div>
       <div className="my_courses_parts">
         <div className="my_courses_part1">

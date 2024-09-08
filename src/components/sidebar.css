@@ -1,0 +1,48 @@
+.sideBar{
+    position: sticky;
+    /* Drawer */
+    width: 126px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    /* logo-bg */
+    background: #001C27;
+    border-radius: 8px 0px 0px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5vh;
+}
+
+/* Target the first div inside .sideBar (actual first div) */
+.sideBar_icons_parts div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sideBar_icons_parts div > div:nth-of-type(1) {
+    width: 78px;
+    height: 70px;
+    background: #2D9CDB;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sideBar_icons_parts div > div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    height: 35vh;
+    justify-content: space-between;
+}
+
+/* Target the second div inside .sideBar (actual second div) */
+.sideBar_icons_parts {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: space-between;
+}
