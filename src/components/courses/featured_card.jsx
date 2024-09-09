@@ -7,21 +7,20 @@ import FeaturedImg from './images/featured.png';
 function FeaturedCard() {
   return (
     <div className="featured_card">
-      <div className="featured_card_beg">
-        <FontAwesomeIcon icon={faGraduationCap} />
-        <div className='info'>
-          <p>5 Lessons</p>
-          <p>4 Quizzes</p>
-        </div>
+      <div className="featured_header">
+        <FontAwesomeIcon icon={faGraduationCap} className="icon" />
+        <span>5 lessons • 4 quizzes</span>
       </div>
-      <p>Enim erat elit diam donec</p>
-      <p>Quisque et tristique eu est sed id sapien, nullam erat.</p>
-      <div className="featured_card_end">
+      <h3 className="featured_title">Enim erat elit diam donec</h3>
+      <p className="featured_description">
+        Quisque et tristique eu est sed id sapien, nullam erat.
+      </p>
+      <div className="featured_footer">
         <div>
-          <FontAwesomeIcon icon={faGraduationCap} />
-          <p className="pnormal_text">Shams Tabrez</p>
+          <FontAwesomeIcon icon={faGraduationCap}/>
+          <span>Shams Tabrez</span>
         </div>
-        <img src={FeaturedImg} alt="featured" />
+        <img src={FeaturedImg} alt="Instructor" className="instructor_img" />
       </div>
     </div>
   );

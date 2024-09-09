@@ -1,66 +1,109 @@
 .featured_card {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
+    padding: 20px;
     width: 308px;
     height: 236px;
+    position: relative;
     background: #FFFFFF;
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25), 0px 2px 2px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
-    padding: 25px;
-}
 
-.featured_card_beg,
-.featured_card_end {
+  }
+  
+  .featured_header {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 100%; /* Ensures these sections take full width */
-}
-
-.info{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-}
-.info p {
-    font-weight: bold;
-    font-size: 12px;
-}
-.featured_card_beg p{
     font-family: 'Gilroy-Medium';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    /* Gray 3 */
     color: #828282;
     flex: none;
     order: 0;
     flex-grow: 0;
-}
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+    width: 38px;
+    height: 38px;
+    /* Blue 3 */
+    background: #56CCF2;
+    color: #edf6f9;
+    border-radius: 1000px;
+  }
+  
+  .featured_title {
+    width: 166px;
+    height: 17px;
 
-.featured_card p:nth-of-type(1){
     font-family: 'Gilroy-Light';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    /* Gray 2 */
     color: #4F4F4F;
-}
-
-.featured_card p:nth-of-type(2) {
+  }
+  
+  .featured_description {
+    width: 271px;
+    height: 38px;
     font-family: 'Gilroy-Medium';
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-}
+    display: flex;
+    align-items: center;
+    color: #4F4F4F;
+  }
+  
+  .featured_footer {
+    display: flex;
+    align-items: end;
+  }
+  
+  .featured_footer div {
+    display: flex;
+    flex-direction: row;
+   /* Shams Tabrez */
+    height: 14px;
+    font-family: 'Gilroy-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: end;
+    color: #4F4F4F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    gap: 5px;
+  }
 
-.featured_card_end img {
+  .instructor_img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+
+  .instructor_img{
     position: absolute;
-    height: 85px; /* Set a height for the image */
-    right: 8px; /* Adds space between the icon and the image */
+    width: 90px;
+    height: 136px;
+    right: 0;
     bottom: 0;
-}
+  }
+  

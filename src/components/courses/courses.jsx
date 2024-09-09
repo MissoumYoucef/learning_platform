@@ -3,13 +3,11 @@ import Progress from './progress';
 import Allstatus from './allstatus';
 import EnrolledCourses from './enrolled_courses';
 import Featured from './Featured';
-
+import NavBar from '../navbar';
 function Courses() {
   return (
     <div className="my_courses">
-      <div className="my_courses_navbar">
-        
-      </div>
+      <NavBar/>
       <div className="my_courses_parts">
         <div className="my_courses_part1">
           <Progress/>
